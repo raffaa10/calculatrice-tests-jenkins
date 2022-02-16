@@ -20,6 +20,7 @@ public class CalculatriceTest {
     public void testAddition() {
         double a = 10;
         double b = 5;
+        Calculatrice calculatrice = new Calculatrice();
         assertEquals(15, calculatrice.addition(a, b));
     }
 
@@ -28,6 +29,7 @@ public class CalculatriceTest {
     public void testSoustraction() {
         double a = 4;
         double b = 1;
+        Calculatrice calculatrice = new Calculatrice();
         assertEquals(3, calculatrice.soustraction(a, b));
     }
 
@@ -36,6 +38,7 @@ public class CalculatriceTest {
     public void testMultiplication() {
         double a = 2;
         double b = 3;
+        Calculatrice calculatrice = new Calculatrice();
         assertEquals(6, calculatrice.multiplication(a, b));
     }
 
@@ -44,6 +47,7 @@ public class CalculatriceTest {
     public void testDivision() {
         double a = 7;
         double b = 0;
+        Calculatrice calculatrice = new Calculatrice();
         try {
             calculatrice.division(a, b);
         } catch (ArithmeticException e) {
@@ -56,6 +60,7 @@ public class CalculatriceTest {
     public void testMultiplication2() {
         double a = 9;
         double b = 3;
+        Calculatrice calculatrice = new Calculatrice();
         assertEquals(3, calculatrice.division(a, b));
     }
 
