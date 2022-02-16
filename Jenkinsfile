@@ -46,7 +46,7 @@ pipeline {
             steps {
                 sh 'mvn clean verify sonar:sonar \
                     -Dsonar.projectKey=tests \
-                    -Dsonar.host.url=http://localhost:9000 \
+                    -Dsonar.host.url=http://172.17.0.2:9000 \
                     -Dsonar.login=0d7d0232df41bab3acc7e7ab9b4d228fdddae33e'
             }
         }
