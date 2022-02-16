@@ -11,7 +11,7 @@ public class CalculatriceTest {
     private Calculatrice calculatrice;
 
     @BeforeEach
-    public void initTest() {
+    public void setUpClass() {
         calculatrice = new Calculatrice();
     }
 

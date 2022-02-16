@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Calculatrice-Jenkins" />
+        <module name="calculatrice-tests-jenkins" />
       </profile>
     </annotationProcessing>
   </component>

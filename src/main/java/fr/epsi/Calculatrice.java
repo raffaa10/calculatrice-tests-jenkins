@@ -46,4 +46,5 @@ public class Calculatrice {
         }*/
         return a / b;
     }
+
 }
